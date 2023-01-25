@@ -1,0 +1,197 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:0px;
+}
+.navbar-toggler,
+.navbar-toggler:focus{
+    border:0px;
+    outline:none;
+    box-shadow:none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    color:rgb(100, 97, 97);
+    font-weight:600;
+    font-size: 2.1rem;
+    padding-bottom:4rem;
+}
+ p{
+    font-weight: 600;
+    color:rgb(140, 133, 133);
+}
+section{
+    padding-top:5rem;
+    padding-bottom:2rem;
+}
+header
+{
+    background-image: url("../images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+ header .navbar-nav .nav-link
+{
+    color: #ffff;
+}
+header .navbar-nav{
+    margin-right:7rem;
+}
+header .navbar-nav .nav-item{
+    padding-right:1rem;
+}
+header h2{
+    color:white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+}
+header .title-box{
+padding-top:9rem !important;
+}
+header .title-box span{
+    background-color: red;
+}
+/* who we are start */
+
+#who-we-are h2 span,
+#why-we-are-different span{
+    color:red;
+
+}
+
+#who-we-are .bg-image{
+background-image: url("../images/who-we-are.png"),
+url("../images/bg.png");
+height:80vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 60% ,100%;
+}
+/* why-we-are-different */
+.why-we-are-different{
+    background-image: url("../images/diff-bg.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top:3rem;
+padding-bottom:2rem;
+}
+#why-we-are-different h2{
+    padding-top:1rem;
+}
+#why-we-are-different .content-box{
+    padding-top:1rem;
+}
+#why-we-are-different h4{
+padding-top:2rem;
+font-size: 1.5rem;
+font-weight:500 ;
+color:black;
+}
+#why-we-are-different p{
+    padding-top:1rem;
+}
+/* pricing */
+#pricing h2{
+font-weight: 700;
+margin-bottom:0px;
+padding-bottom:0px;
+}
+.pricing{
+    background-image: url("../images/pricing-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:8rem;
+    margin-bottom:3rem;
+    padding-top:0.2rem;
+}
+#pricing p a{
+    text-decoration: underline ;
+}
+.pricing img{
+    width:60px;
+    padding-bottom:1rem;
+}
+.pricing span .fa-sterling-sign{
+    padding-right:0.5rem;
+}
+.pricing span{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.onwards{
+    color:rgb(83, 80, 80);
+    font-size: 0.8rem;
+    letter-spacing: 1.6px;
+}
+.increament{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.pricing button{
+    border:1px solid red;
+    padding:5px 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.third-card{
+    background-color: red;
+    height:350px;
+    margin-top:-2rem;
+    box-shadow:3px 0px 10px rgb(241, 137, 155),
+    -3px 0px 15px rgb(241, 137, 155);
+    z-index: 11;
+    position: relative;
+}
+.first-card{
+    box-shadow:0px 3px 10px rgb(241, 137, 155),
+    3px 0px 10px rgb(241, 137, 155); 
+}
+.popular{
+    letter-spacing: 10px;
+    font-size:0.8rem;
+}
+
+/* use the portal */
+#use-the-portal h2,
+#how-we-can-help-you h2{
+    color:rgb(112, 110, 110);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom:0px;
+    padding-bottom:1.3rem;
+}
+#use-the-portal  span,
+#how-we-can-help-you span{
+    color:red;
+}
+#use-the-portal p{
+    padding-top:1rem;
+    color:rgb(103, 101, 101);
+    font-weight: 500;
+}
+/* footer */
+#footer{
+    padding:3rem 0rem;
+    background-color:rgb(29, 28, 28);
+}
+#footer p,
+#footer ul
+{
+    color:white;
+    opacity:0.3;
+}
+#footer .copyrights{
+    padding-top:2rem;
+}
+#footer .main-links{
+    color:white
+    /* padding-bottom:3rem;*/
+}
+
+

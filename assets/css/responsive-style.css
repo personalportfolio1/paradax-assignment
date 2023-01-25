@@ -1,0 +1,164 @@
+
+@media screen and (max-width:1030px){
+     header {
+
+        height: 90vh;
+    }
+    header h2 {
+        font-size: 3.2rem;
+        line-height: 4rem;
+    }
+
+    header .title-box {
+        padding-top: 9rem !important;
+    }
+}
+@media screen and (max-width:1024px) {
+
+    /* header */
+    header {
+
+        height: 90vh;
+    }
+
+    header h2 {
+        font-size: 3.2rem;
+        line-height: 4rem;
+    }
+
+    header .title-box {
+        padding-top: 5rem !important;
+    }
+
+    header .navbar-nav .nav-item {
+        padding-left: 1.2rem;
+    }
+  /* who we are */
+  #who-we-are .bg-image {
+    height: 50vh;
+}
+}
+
+@media screen and (max-width:991px) {
+    header .navbar-nav .nav-link
+    {
+        color: red;
+    }
+     header .navbar-nav .nav-item{
+        text-align:center;
+     }
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    header h2 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    header .title-box {
+        padding-top: 3rem !important;
+    }
+
+    /* who we are */
+    #who-we-are .bg-image {
+        height: 40vh;
+    }
+
+    /* why we offer */
+    #why-we-are-different h2 {
+        padding-top: 3rem;
+    }
+
+    #why-we-are-different .content-box {
+        padding-top: 3rem;
+    }
+
+    #why-we-are-different h4 {
+        font-size: 1.2rem;
+    }
+
+    section {
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    /* how we can help you */
+    #use-the-portal h2,
+    #how-we-can-help-you h2 {
+        font-size: 1.9rem;
+    }
+
+    /* pricing */
+    .pricing {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .third-card {
+        margin-top: -1.7rem;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+   
+    section {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    #who-we-are p {
+        line-height: 1rem;
+        font-weight: 500;
+    }
+
+    .why-we-are-different {
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+    #why-we-are-different .content-box {
+        padding-top: .1rem;
+    }
+
+    #why-we-are-different h2 {
+        padding-top: 1rem;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+   
+    section {
+        padding-top: 3rem;
+    }
+    .first-card,
+    .third-card {
+        width: 80%;
+        margin: auto;
+    }
+
+    .info {
+        text-align: center;
+    }
+
+    #how-we-can-help-you .image img {
+        width: 80%;
+        margin-left: 2rem;
+    }
+
+}
+
+@media screen and (max-width:330px) {
+    header {
+
+        height: 50vh;
+    }
+    header h2 {
+        font-size: 1.3rem;
+        line-height:1.8rem;
+    } 
+  
+}
